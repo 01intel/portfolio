@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css?family=Catamaran:400,700|Grand+Hotel&display=swap');
+:root{
+ --slantedText:"Grand Hotel", cursive;
+ --primaryColor:#698f3f;
+ --secondaryColor:#fca311;
+ --mianDark: #3a3e3b;
+ --mainWhite:#fff;
+ --mainGrey: #e5e5e5;
+ --mainTransition:all 0.3s ease-in-out;
+ --letterSpacing: 0.5rem;
+}
+body{
+ font-family: "Catamaran", sans-serif;
+ line-height: 1.5;
+}
+/* helper/utility classes */
+a{
+ text-decoration: none;
+}
+.text-white{
+ color: var(--mainWhite);
+}
+.text-center{
+ text-align: center;
+}
+.text-primary{
+ color: var(--primaryColor);
+}
+/* service button */
+.service-btn{
+ display: inline-block;
+ background: var(--mainWhite);
+ text-decoration: none;
+ text-transform: capitalize;
+ padding: 0.2rem 0.4rem;
+ color: var(--primaryColor);
+ font-weight: bold;
+ border: 0.2rem solid var(--mainWhite);
+ border-radius: 0.5rem;
+ cursor: pointer;
+ margin-top: 0.5rem;
+ transition: var(--mainTransition);
+ /* transform: translateX(50%); */
+}
+.service-btn:hover{
+ background: transparent;
+ color: var(--mainWhite);
+}
+/* end of service button */
+/* footer */
+.footer{
+ position: relative;
+}
+.section-center{
+ position: absolute;
+ box-sizing: border-box;
+ background: none;
+ text-align: center;
+ transform: translateX(50%);
+ display: block;
+ padding-top: 2rem;
+ padding-bottom:2rem;
+ margin-bottom: 0rem;
+}
+.social-icon{
+ color: var(--mainWhite);
+ font-size: 1.3rem;
+ margin-right: 1rem;
+ transition: var(--mainTransition);
+}
+.social-icon:hover{
+ color: var(--secondaryColor);
+}
+.footer-text{
+ text-transform: uppercase;
+ color: var(--mainWhite);
+ letter-spacing: var(--letterSpacing);
+ margin-top: 1rem;
+ font-size: 0.85rem;
+}
+/* end of footer */
+
+/* banner */
+.subline{
+ font-family: var(--slantedText);
+ font-size: 2rem;
+ letter-spacing: var(--letterSpacing);
+ color: var(--primaryColor);
+}
+.w3-jumbo{
+ color: var(--mainWhite);
+ font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#contact{
+ margin-bottom: 4rem;
+}
+/* background-img */
